@@ -1,0 +1,16 @@
+[package]
+name = "gleamgen"
+version = "0.1.0"
+edition = "2021"
+license-file="LICENSE"
+repository="https://github.com/aleph-lang/gleamgen"
+description="Gleam generator."
+
+[profile.dev]
+opt-level = 3
+
+[profile.release]
+opt-level = 3 
+
+[dependencies]
+aleph-syntax-tree = "0.1.1"
